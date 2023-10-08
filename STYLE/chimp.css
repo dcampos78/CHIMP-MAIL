@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding; opx;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+label, input {
+    display: block;
+}
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    border: 10px solid lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+intro {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+container {
+    width: 100%;
+}
+.side-image, .content {
+    display: inline-block;
+}
+side-image {
+    width: 20%;
+}
+.password-requirements {
+    width: 100%;
+}
+
+.password-requirements-list {
+    display: inline-block;
+    margin-left: 19px;
+}
+
+.sign-up-container {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.sign-up-btn {
+    padding: 15px 50px;
+    background: lightgray;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
